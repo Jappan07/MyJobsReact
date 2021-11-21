@@ -1,0 +1,24 @@
+.NavigationItem {
+    height: 100%;
+    box-sizing: border-box;
+    text-align: left;
+    margin-right: 28px;
+}
+
+.NavigationItem a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.NavigationItem a:hover, .NavigationItem a:active, .NavigationItem a.active {
+    border-bottom: 2px solid #43afff;
+}
+
+@media (max-width:600px) {
+    .NavigationItem {
+    margin-right: 5px;
+    }
+    .NavigationItem a {
+        font-size: 14px;
+    }
+}

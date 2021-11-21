@@ -1,0 +1,21 @@
+.FallBack {
+    position: absolute;
+    left: 0;
+    top: 220px;
+    width: 100%;
+    height: 500px;
+    background-color: #EDF6FF;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    justify-items: center;
+}
+
+.FallBack span>* {
+    color: #a9afbc;
+    font-size: 8rem;
+}
+
+.FallBack p {
+    color: #303f60;
+}

@@ -1,0 +1,35 @@
+.PostJob {
+    margin: 100px auto 0;
+    height: auto;
+    width: 557px;
+    background-color: #fff;
+    padding: 20px 22px;
+    box-shadow: 0 14px 28px #557DA526, 0 10px 10px #557da51e;
+    border-radius: 10px;
+}
+
+.PostButtonContainer {
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+
+.PostJob h1 {
+    color: #303f60;
+    font-weight: 500;
+}
+
+.ErrorMessage {
+    margin-top: 0;
+    color: #ff0000;
+    float: right
+}
+
+@media (max-width:600px) {
+    .PostJob {
+        width: 90%;
+    }
+    .PostJob h1 {
+        text-align: center;
+    }
+}

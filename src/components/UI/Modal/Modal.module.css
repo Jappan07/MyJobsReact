@@ -1,0 +1,31 @@
+.Modal {
+    position: absolute;
+    z-index: 500;
+    background-color: white;
+    width: 60%;
+    box-shadow: 1px 1px 1px #557da526;
+    padding: 16px;
+    top: 15%;
+    box-sizing: border-box;
+    border-radius: 10px;
+    overflow-y: scroll;
+    max-height: 80vh;
+    transition: all 0.3s ease-out;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.Modal span {
+    float: right;
+}
+
+@media (max-width:1024px) {}
+
+@media (max-width:768px) {
+    .Modal {
+        left: 10%;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {}

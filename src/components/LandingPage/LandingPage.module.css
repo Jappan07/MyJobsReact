@@ -1,0 +1,137 @@
+.SiteSection {
+    padding: 80px 150px;
+    max-width: 1600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.SiteSection2{
+    padding: 0px 150px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.HeroSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+
+.HeroSection img {
+    position: absolute;
+    top: 16%;
+    right: 10%;
+    height: auto;
+    width: 50%;
+    min-width: 520px;
+    max-width: 680px;
+    border-radius: 20px;
+    box-shadow: 0 14px 28px #557DA526, 0 10px 10px #557da51e;
+}
+
+.Content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Content h1{
+    font-size: 60px;
+}
+
+.SiteSection h2 {
+    color: #303F60;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.SiteSection2 h2{
+    color: #303F60;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.HeroSection h1 {
+    color: #fff;
+    font-weight: 400;
+    margin: 0;
+    /* font-size: 4vw; */
+}
+
+.SiteSection .FeaturesSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.CompaniesSection {
+    margin-top: 30px;
+    display: grid;
+    padding: 0;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 20px;
+}
+
+.CompaniesSection img {
+    height: 40px;
+    width: auto;
+}
+
+@media (max-width:1200px) {
+     .Content h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:1024px) {
+    .SiteSection {
+        padding: 70px 50px;
+    }
+    .SiteSection2{
+        padding: 0px 50px;
+    }
+    .HeroSection {
+        flex-direction: column;
+    }
+    .HeroSection img {
+        display: none;
+    }
+    .Content {
+        align-items: center;
+    }
+    .Content h1 {
+        font-size: 50px;
+    }
+    .CompaniesSection {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width:768px) {
+    .SiteSection{
+        text-align: center;
+    }
+    .SiteSection2{
+        text-align: center;
+    }
+    .CompaniesSection {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .FeaturesSection {
+        flex-direction: column;
+    }
+    .Content h1 {
+        font-size: 50px;
+    }
+}
+
+@media (max-width:480px) {
+    .CompaniesSection {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+}

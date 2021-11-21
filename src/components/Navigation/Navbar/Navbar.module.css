@@ -1,0 +1,28 @@
+.Navbar {
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    background: linear-gradient(to right, #1A253C, #303F60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LinksContainer {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.472);
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.Navbar nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}

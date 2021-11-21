@@ -1,0 +1,44 @@
+.Auth {
+    margin: 0 auto;
+    height: auto;
+    width: 557px;
+    background-color: #fff;
+    padding: 10px 22px;
+    box-shadow: 0 14px 28px #557DA526, 0 10px 10px #557da51e;
+    border-radius: 10px;
+    margin-top: 100px;
+    /* margin-bottom: 100px; */
+}
+
+.Auth h1 {
+    color: #303f60;
+    font-weight: 500;
+}
+
+.SwitchMode {
+    margin-top: 10px;
+    display: grid;
+    place-content: center;
+}
+
+.SwitchMode span {
+    color: #43afff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width:600px) {
+    .Auth {
+        width: 90%;
+        text-align: center;
+    }
+    .SwitchMode {
+        margin-top: 0;
+    }
+}
+
+@media (max-width:476px){
+    .Auth{
+        margin-top: 80px;
+    }
+}

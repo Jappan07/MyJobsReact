@@ -1,0 +1,18 @@
+.Logo {
+    cursor: pointer;
+    user-select: none;
+}
+
+.LogoText {
+    margin: 0;
+    font-weight: 600;
+    padding: 0;
+}
+
+.LogoText span {
+    color: #fff;
+}
+
+@media(max-width:360px){
+    
+}

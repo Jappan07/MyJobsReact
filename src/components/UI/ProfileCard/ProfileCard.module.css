@@ -1,0 +1,61 @@
+.ProfileCard {
+    /* width: 274px; */
+    width: 80%;
+    height: 141px;
+    background-color: #fff;
+    padding: 10px 8px;
+    border-radius: 5px;
+    /* margin-right: 18px; */
+    border: 2px solid #303f6080;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #303f60;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: row;
+}
+
+.Profile .ProfileDetails {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.Profile .ProfileImage {
+    width: 40px;
+    min-width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background: #d9efff;
+    font-size: 20px;
+    color: #303f60;
+    text-align: center;
+    line-height: 40px;
+}
+
+.ProfileCard p {
+    margin-top: 0;
+}
+
+@media (max-width:768px) {
+    .ProfileCard {
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 2px;
+    }
+}
+
+@media (max-width:480px) {
+    .ProfileCard {
+        width: 100%;
+    }
+    .ProfileDetails p{
+        font-size: 12px;
+    }
+}

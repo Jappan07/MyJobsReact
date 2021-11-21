@@ -1,0 +1,65 @@
+.JobPostingsContainer {
+    padding: 0px 80px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.JobPostings {
+    max-width: 1600px;
+    margin: 0 auto;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.JobSearchContainer {
+    width: 80%;
+}
+
+.JobSearchContainer>button {
+    margin: 0 10px 10px 0
+}
+
+@media (max-width:1250px) {
+    .JobPostings {
+        padding: 0px 10px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .JobPostingsContainer {
+        padding: 0px 50px;
+        max-width: 1600px;
+        margin: 0 auto;
+}
+    .PageNavigationControls {
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width:980px) {
+    .JobPostingsContainer {
+        padding: 0px 30px;
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+    .JobPostings {
+        padding: 0px 30px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:768px) {
+    .JobPostingsContainer {
+        padding: 0px 16px;
+    }
+    .JobPostings {
+        padding: 0px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+    .JobSearchContainer {
+        width: 100%;
+    }
+}

@@ -1,0 +1,38 @@
+.DataContainer{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    gap: 20px;
+}
+
+.PageNavigationControls {
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.PageNavigationControls span:nth-child(odd) {
+    color: #303f60;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+@media (max-width:1024px) {
+    .PageNavigationControls {
+        margin-top: 50px;
+    }
+    .DataContainer {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width:768px) {
+    .DataContainer {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5px;
+    }
+}

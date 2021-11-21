@@ -1,0 +1,61 @@
+.Input {
+    width: 100%;
+    padding: 2px 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.Label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.InputElement {
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgb(248, 248, 248);
+    font: inherit;
+    padding: 8px 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Input textarea{
+    min-width: 100%;
+    max-width: 100%;
+    max-height: 100px;
+    min-height: 30px;
+}
+
+.InputElement:focus {
+    outline: none;
+    border: 1px solid #43afff;
+    background-color: #fff
+}
+
+.Invalid {
+    border: 1px solid red;
+}
+
+.RadioButton {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.RadioButton input {
+	cursor: pointer;
+}
+
+.EyeIcon{
+    cursor: pointer;
+    color: #C0C0C0;
+    transform: scale(0.6);
+    position: absolute;
+    top: 15%;
+    right: 0;
+}

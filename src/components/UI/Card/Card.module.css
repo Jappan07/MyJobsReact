@@ -1,0 +1,59 @@
+.Card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 192px;
+    min-width: 201px;
+    max-width: 362px;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px 18px;
+    box-shadow: 0 14px 28px #557DA526, 0 10px 10px #557da51e;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-right: 22px;
+    transition: 2s all cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.ClearIcon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: scale(0.8)
+}
+
+.Card .Heading {
+    font-size: 22px;
+    color: #43AFFF;
+    font-weight: 500;
+    margin: 10px 5px;
+}
+
+.Card .Content {
+    font-size: 14px;
+    color: #303F60;
+}
+
+.Card .Information {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Information span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .Card {
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+    .ClearIcon {
+        transform: scale(1)
+    }
+}

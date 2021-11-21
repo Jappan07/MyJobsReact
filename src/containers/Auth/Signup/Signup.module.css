@@ -1,0 +1,57 @@
+.Signup .SignupForm {
+    text-align: left;
+}
+
+.SignupForm label {
+    color: #303f60;
+    font-size: 14px;
+}
+
+.SignupControls {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.SignupControls p {
+    margin-top: 50px;
+}
+
+.SignupControls span {
+    color: #43afff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.Heading {
+    margin-bottom: 10px;
+}
+
+.Heading label {
+    display: block;
+    margin-bottom: 8px;
+    color: #303f60;
+    font-size: 14px;
+}
+
+.ButtonContainer>* {
+    margin-right: 20px;
+}
+
+.ButtonContainer {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.ErrorMessage {
+    margin-top: 0;
+    color: #ff0000;
+    float: right
+}
+
+@media (max-width:476px) {
+    .SignupControls {
+        margin-top: 0px;
+    }
+}

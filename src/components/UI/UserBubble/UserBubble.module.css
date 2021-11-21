@@ -1,0 +1,100 @@
+.UserBubble{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100px;
+    z-index: 1000;
+}
+
+.ProfileIconContainer{
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.ProfileIcon{
+    width: 46px;
+    height: 46px;
+    border-radius: 50%;
+    background: #d9efff;
+    color: #303f60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ProfileIcon p{
+    font-size: 18px;
+}
+
+.ArrowDownIconContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.ArrowDownIcon{
+    color: #fff;
+    cursor: pointer;
+}
+
+.LogoutBubble{
+    background: #fff;
+    color: #303f60;
+    display: flex;
+    padding: 0 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    height: 46px;
+    width: 112px;
+    border-radius: 8px;
+    position: relative;
+    top: 20px;
+    right: 75px;
+}
+
+.LogoutBubble::before{
+    content: "";
+    position: absolute;
+    display: block;
+    width: 0;
+    border: 15px solid #fff;
+    border-bottom: 0;
+    border-top: 33px solid #fff;
+    bottom: 15px;
+    left: 0px;
+    transform: translateX(250%) rotate(45deg);
+}
+
+.LogoutBubble p:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.LogoutBubble.RemoveBubble{
+    display: none;
+}
+
+@media(max-width:360px){
+    .UserBubble{
+        width: 80px;
+    }
+    .ProfileIcon{
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        background: #d9efff;
+        color: #303f60;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .ProfileIcon p{
+        font-size: 14px;
+    }
+}

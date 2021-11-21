@@ -1,0 +1,25 @@
+.PageNavigationControls {
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.PageNavigationControls span:nth-child(odd) {
+    color: #303f60;
+    margin: 0 20px;
+    cursor: pointer;
+}
+
+.DisableButton{
+    color: grey;
+    cursor: not-allowed;
+}
+
+@media (max-width:1024px) {
+    .PageNavigationControls {
+        margin-top: 50px;
+    }
+}

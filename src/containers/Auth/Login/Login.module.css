@@ -1,0 +1,51 @@
+.Login .LoginForm {
+    text-align: left;
+}
+
+.LoginForm label {
+    color: #303f60;
+    font-size: 14px;
+}
+
+.LoginControls {
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.LoginControls p {
+    margin-top: 50px;
+}
+
+.LoginControls span {
+    color: #43afff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ErrorMessage {
+    margin-top: 0;
+    color: #ff0000;
+    float: right
+}
+
+.ForgotPass {
+    font-size: 14px;
+    color: #43afff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+@media (max-width:480px) {
+    .LoginControls {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+}
+    .LoginControls button{
+        margin-top: 2px;
+        width: 80%;
+    }
+}

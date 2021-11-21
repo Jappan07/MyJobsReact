@@ -1,0 +1,23 @@
+.JobsAppliedContainer{
+      padding: 0px 80px;
+      max-width: 1600px;
+      margin: 0 auto;
+}
+
+
+@media (max-width:1250px) {
+     .JobsAppliedContainer {
+        padding: 0px 50px;
+    }
+}
+
+@media (max-width:768px) {
+    .JobsAppliedContainer {
+        padding: 0px 18px;
+    }
+    .JobsApplied {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 0px;
+        padding: 0;
+    }
+}
