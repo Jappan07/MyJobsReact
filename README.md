@@ -6,9 +6,13 @@ Post jobs and hire people!!
 
 ## Setup
 
-git clone git@bitbucket.org:Jappan/myjobsreactapp.git
+<pre>
+git clone https://github.com/Jappan07/MyJobsReact
 npm install
 npm start 
+</pre>
 
+## Deployed link
+<a href="https://myjobsreactapp.vercel.app">Link</a>
 
 #
