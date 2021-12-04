@@ -13,6 +13,6 @@ npm start
 </pre>
 
 ## Deployed link
-<a href="https://myjobsreactapp.vercel.app">Link</a>
+<a href="https://my-jobs-react-q6r59msi2-jappan07.vercel.app/">Link</a>
 
 #
